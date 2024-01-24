@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="martim palma, ines silva , mario costa" name="author">
+    <meta content="xxxxxxxxxxx" name="keywords">
+    <meta content="site curtas" name="description">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <title>MiM Films</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/nossos estilos.css">
+    <script src="../bootstrap.js"></script>
+
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+
+        <a class="navbar-brand ms-5" href="home.html"><img src="../imgs/logo.png"></a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MiMNavBar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="MiMNavBar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="jovens%20criadores.html">Criadores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="activities.html">Atividades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="quem%20somos.html">Quem somos</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown">Metragens</a>
+                    <ul class="dropdown-menu dropdown-menu-dark bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item focus" href="curtas.html">Curtas</a></li>
+                        <li><a class="dropdown-item focus" href="longas.html">Longas</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="submeter.html">Submeter</a>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+</nav>
+
+<main class="container-fluid">
+    <section class="row">
+        <figure class="col-4 col-lg-5 bg-light mb-0 ">
+            <img class="img-fluid" src="../imgs/Video park_DrawKit_Vector_Illustrations.png" alt="ilustration" />
+        </figure>
+
+        <article class="col-6 align-self-center margin-submeter">
+            <p class="fs-2 mt-5 ms-3 text-center">Submete aqui o teu projeto</p>
+            <form>
+             <div class="form-row">
+
+                 <div class="input-group mb-5 mt-5 ms-3">
+                    <span class="input-group-text">
+                        <i class="bi bi-person-fill"></i>
+                    </span>
+                     <input type="text" class="form-control focus " placeholder=Nome>
+                 </div>
+
+                <div class="input-group mb-5 ms-3">
+                    <span class="input-group-text">
+                        <i class="bi bi-envelope-at-fill "></i>
+                    </span>
+                    <input type="text" class="form-control focus" placeholder=E-mail>
+                </div>
+
+                <div class="input-group mb-5 ms-3">
+                    <span class="input-group-text">
+                        <i class="bi bi-folder-fill"></i>
+                    </span>
+                    <input type="text" class="form-control focus" placeholder=Anexo>
+
+                </div>
+
+                <div class="fs-6 mb-3 ms-sm-3">
+                    <input id="Curta-Metragem" class="option" type="radio" name="bebida" value="1">
+                    <label for="Curta-Metragem">Curta-Metragem</label>
+                </div>
+
+                 <div class="fs-6 mb-3 ms-sm-3">
+                    <input id="Longa-Metragem" class="option" type="radio" name="bebida" value="2">
+                    <label for="Longa-Metragem">Longa-Metragem</label>
+                </div>
+
+
+                 <div class="text-center mt-5 mb-5">
+                 <button type="button" class="btn btn-dark mb-3 btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                     Submeter
+                 </button>
+                 </div>
+
+                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                     <div class="modal-dialog modal-dialog-centered">
+                         <div class="modal-content">
+                             <div class="modal-header">
+                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                             </div>
+                             <div class="modal-body">
+                                 <i class="bi bi-patch-check me-1"></i>  Submissão com sucesso.<br>
+                                 Obrigado!
+                             </div>
+
+                         </div>
+                     </div>
+                 </div>
+              </div>
+             </form>
+
+
+        </article>
+
+    </section>
+</main>
+
+<footer class="container-fluid bg-dark">
+    <div class="row justify-content-evenly align-items-center">
+        <div class="col-md-2 ">
+            <p class="text-white "><a href="#">info@mim.pt</a></p>
+        </div>
+        <div class="col-md-4 ">
+            <p class="text-white">Departamento DeCA, 40, 3810-193 Aveiro, Portugal</p>
+        </div>
+
+        <div class="col-md-3 ">
+            <a href="#"><i class="bi bi-instagram text-white"></i></a>
+            <a href="#"><i class="bi bi-facebook text-white ms-3"></i></a>
+            <a href="#"><i class="bi bi-youtube text-white ms-3"></i></a>
+            <a href="#"><i class="bi bi-twitter text-white ms-3"></i></a>
+            <a href="#"><i class="bi bi-tiktok text-white ms-3"></i></a>
+        </div>
+    </div>
+</footer>
+
+
+<!--      FICHEIROS JAVASCRIPT-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+<script src="../bootstrap.js"></script>
+</body>
+
+</html>
